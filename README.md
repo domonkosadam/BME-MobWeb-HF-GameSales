@@ -30,5 +30,24 @@ Az API eléréshez a [Retrofit](https://square.github.io/retrofit/) libraryt fog
 - Adatbáziskezelés: Internet nélkül a legutóbbi elemek jelennek meg.
 - Intent: Implicit intent az alkalmazásboltok megnyitásához.
 
+# Házi feladat dokumentáció
 
-# Házi feladat dokumentáció (ha nincs, ez a fejezet törölhető)
+**Architektúra**
+
+A házi feladat az *Android Jetpack*-ben bevezetett *ViewModel architektúra* szerint készült. Ennek előnye, hogy az adatok és a megjelenítés elkülönül. Így sokkal átláthatóbb kódot kapunk, illetve az adatok megmaradnak a képernyő megsemmisülése esetén is.
+
+Az *API* hívásokat *Repository* mintával készítettem el a *Retrofit* nevű library-val. Így az adatokat kezelő függvények elkülönülnek a megjelenítést végző objektumoktól. A State objektumokkal felhasználóbarát módon le tudtam kezelni a hibákat és a töltőképernyőt.
+
+**Felhasználói felület**
+
+Az alkalmazás támogatja az *éjszakai módot* is.
+
+A *CheapShark API*-tól lekért akciós játékokat egy *listában* jelenítem meg. Mivel a képek internetes áruházakból vannak, így a *Glide* libraryval jelenítem meg a kapott URL-ket.
+
+A *Steam API*-tól lekért PC követelményeket egy *lenyitható nézetben* jelenítem meg, hogy a néha túl hosszú leírások ne zavarják a felhasználót.
+
+Ha megtetszik egy játék a gomra kattintva egy *implicit intent*-tel megnyitható a böngészőben az áruház, ahol meg lehet vásárolni a játékot.
+
+**Perzisztens adattárolás**
+
+Ha valami hiba történt az API hívás során, vagy nincs internet kapcsolat, a legutóbb letöltött adatokat jeleníti meg az alkalmazás. Ezeket az adatokat a *Room* library-val kezelem.
