@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BME/5_felev/MobWeb/HF/SpaceInspector/app/src/main/res/drawable/cross_line.xml" value="0.194" />
+        <entry key="..\:/BME/5_felev/MobWeb/HF/SpaceInspector/app/src/main/res/layout/activity_main.xml" value="0.36302083333333335" />
+        <entry key="..\:/BME/5_felev/MobWeb/HF/SpaceInspector/app/src/main/res/layout/fragment_game_details.xml" value="0.22" />
+        <entry key="..\:/BME/5_felev/MobWeb/HF/SpaceInspector/app/src/main/res/layout/fragment_game_details_requirements_collapsed.xml" value="0.1859375" />
+        <entry key="..\:/BME/5_felev/MobWeb/HF/SpaceInspector/app/src/main/res/layout/fragment_game_details_requirements_expended.xml" value="0.1859375" />
+        <entry key="..\:/BME/5_felev/MobWeb/HF/SpaceInspector/app/src/main/res/layout/fragment_game_list.xml" value="0.36302083333333335" />
+        <entry key="..\:/BME/5_felev/MobWeb/HF/SpaceInspector/app/src/main/res/layout/game_list_row.xml" value="0.36302083333333335" />
+        <entry key="..\:/BME/5_felev/MobWeb/HF/viauac00-hf-2022-domonkosadam/GameSales/app/src/main/res/layout/fragment_game_list.xml" value="0.17654508611955422" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
